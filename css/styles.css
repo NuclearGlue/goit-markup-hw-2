@@ -2,16 +2,16 @@
   --main-font: 'Roboto';
   --secondary-font: 'Raleway';
   --default-font: , sans-serif;
-  --main-color: #ffffff;
+  --page-color: #ffffff;
   --footer-color: #2f303a;
   --section-color: #f5f4fa;
-  --active-color: #2196f3;
-  --heading-color: #212121;
+  --accent-color: #2196f3;
+  --text-color: #212121;
   --paragraph-color: #757575;
 }
 body {
-  background-color: var(--main-color);
-  color: var(--heading-color);
+  background-color: var(--page-color);
+  color: var(--text-color);
   font-family: var(--main-font);
   text-decoration: none;
   line-height: 1.71;
@@ -20,18 +20,18 @@ body {
 }
 .main-nav-link {
   font-weight: 500;
-  color: var(--heading-color);
+  color: var(--text-color);
   text-decoration: none;
 }
 .main-nav-link:hover {
-  color: var(--active-color);
+  color: var(--accent-color);
 }
 .current {
-  color: var(--active-color);
+  color: var(--accent-color);
 }
 .logo-web {
   font-family: var(--secondary-font);
-  color: var(--active-color);
+  color: var(--accent-color);
   text-decoration: none;
   font-weight: bold;
   font-size: 26px;
@@ -54,14 +54,14 @@ body {
 }
 .section-title {
   font-size: 36px;
-  font-weight: bold;
-  color: var(--heading-color);
+
+  color: var(--text-color);
 }
 .button-style {
   cursor: pointer;
 }
 .header-style {
-  background-color: var(--main-color);
+  background-color: var(--page-color);
   letter-spacing: 0.02em;
   font-weight: 500;
 }
@@ -70,9 +70,8 @@ body {
   background-color: var(--footer-color);
 }
 .hero-button {
-  background-color: var(--active-color);
+  background-color: var(--accent-color);
   font-weight: 700;
-  font-size: medium;
   color: #ffffff;
   line-height: 1.87;
   letter-spacing: 0.06em;
@@ -95,10 +94,10 @@ body {
 }
 .footer-info:hover,
 .contacts-link:hover {
-  color: var(--active-color);
+  color: var(--accent-color);
 }
 .features {
-  background-color: var(--main-color);
+  background-color: var(--page-color);
 }
 .features-title {
   text-transform: uppercase;
@@ -114,13 +113,13 @@ body {
 }
 .portfolio-buttons:hover,
 .portfolio-buttons:focus {
-  background-color: var(--active-color);
+  background-color: var(--accent-color);
   color: #ffffff;
 }
 .portfolio-title {
   font-size: 18px;
   line-height: 2;
-  color: var(--heading-color);
+  color: var(--text-color);
   letter-spacing: 0.06em;
 }
 .portfolio-text {
@@ -144,7 +143,7 @@ body {
   font-size: 16px;
 }
 .work {
-  background-color: var(--main-color);
+  background-color: var(--page-color);
 }
 .hidden-heading {
   visibility: hidden;
